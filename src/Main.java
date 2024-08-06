@@ -48,6 +48,5 @@ public class Main {
         System.out.println ("Площадь: " + shapes.getSquare());
         System.out.println ("Цвет фона: " + shapes.getFillColor());
         System.out.println ("Цвет границ: " + shapes.getBorderColor());
-        System.out.println();
     }
 }
