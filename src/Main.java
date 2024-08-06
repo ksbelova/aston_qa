@@ -6,6 +6,8 @@ public class Main {
         Cat cat2 = new Cat ("Персик");
         Cat cat3 = new Cat ("Феликс");
 
+        System.out.println ("Задание 1");
+
         dog1.run (150);
         dog1.swim (5);
 
@@ -28,7 +30,7 @@ public class Main {
         System.out.println ("Всего собак: " + Dog.getDogCount());
         System.out.println ("Всего котов: " + Cat.getCatCount());
 
-        System.out.println ("_______________________________________________________________________________");
+        System.out.println ("Задание 2");
 
         Shapes circle = new Circle (5, "Чёрный", "Белый");
         printShapeInfo ("Круг", circle);
